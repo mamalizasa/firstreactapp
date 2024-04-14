@@ -1,0 +1,39 @@
+* {
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.knopa {
+    color: #fff !important;
+    background-color: #133f6b !important;
+    border: 2px solid #fff !important;
+}
+.carousel-item {
+    height: 600px !important ; /* Задайте желаемую высоту для всех изображений */
+    line-height: 600px !important;
+}
+.h-carousel-image {
+    height: 600px !important ; /* Задайте желаемую высоту для всех изображений */
+    line-height: 600px !important;
+}
+
+.carousel-caption p {
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10%;
+}
+  
+.darken-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Цвет и прозрачность слоя (в данном случае черный цвет с 50% прозрачности) */
+}
+
+.cont_main {
+    background-color: #b9dbf8;
+}

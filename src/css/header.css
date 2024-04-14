@@ -1,0 +1,38 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+  
+.menu {
+    background-color: #acceeb !important;
+    font-size: 20px !important;
+}
+.logo {
+    font-weight: 800;
+    --bs-navbar-brand-font-size: 28px;
+}
+
+.navbar-nav {
+    --bs-nav-link-color:#010413 !important;
+}
+.navbar-nav a {
+    padding-left: 8% !important;
+}
+form {
+    font-size: 20px !important;
+    color: #010413 !important;
+}
+form input {
+    border: 2px solid #133f6b !important;
+}
+
+.knopa {
+    color: #fff !important;
+    background-color: #133f6b !important;
+    border: 2px solid #fff !important;
+}
+
+@media all and (max-width: 997px) {
+    .navbar-nav a {
+        padding-left: 0 !important;
+    }
+}
